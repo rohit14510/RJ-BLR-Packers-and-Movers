@@ -253,13 +253,13 @@ header .sticky .navbar-brand {
 /* ---Hero-Section-Start--- */
 
 .hero-section {
-  padding: 60px 0px;
-  background-image: url(../images/hero1.webp);
+  padding: 200px 0px;
+  background-image: url(../images/banner.jpg);
   color: #fff;
   overflow: hidden;
   position: relative;
   background-position: center;
-  padding-bottom: 420px;
+  /* padding-bottom: 420px; */
   background-size: cover;
   width: 100%;
 }
@@ -417,7 +417,7 @@ header .sticky .navbar-brand {
 .quote-form {
   background-color: #fff;
   padding: 30px;
-  margin-right: -110px;
+ 
 }
 
 .quote-form h2 {
@@ -1981,7 +1981,7 @@ justify-content: center;
   font-size: 16px;
 }
 .hero-section {
-  padding-bottom: 200px;
+  padding-bottom: 100px;
   padding-top: 70px;
 }
 .quote-section .choose .ch-box{

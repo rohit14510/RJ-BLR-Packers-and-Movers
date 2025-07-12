@@ -28,7 +28,7 @@ $mail->Password = 'Standup@123';
 $mail->SMTPSecure = 'tls';
 $mail->Port     = 587;
 // Sender info 
-$mail->setFrom('info@srllogistics.in', 'SRL Logistics Packers and Movers'); 
+$mail->setFrom('info@srllogistics.in', 'RJ BLR Packers and Movers'); 
 $mail->addReplyTo('info@srllogistics.in', 'Test Email'); 
  
 // Add a recipient 
@@ -55,7 +55,7 @@ $mailContent = '
     <p>Moveto :'.$moveto.'</p> 
     <p>Message :'.$msg.'</p> 
     <p>Thanks and Regards</p>  
-    <p>SRL Logistics Packers and Movers</p>';  
+    <p>RJ BLR Packers and Movers</p>';  
 // $mailContent = "Name : ".$name."\n"."Subject : ".$subject."\n"."Email : ".$email."\n"."Mbile : ".$mobile."\n"."Message :".$message; 
 $mail->Body = $mailContent; 
 $mail->headers  = "From: Sender Name <standupstartups1@gmail.com>" . "\r\n";
